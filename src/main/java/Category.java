@@ -3,6 +3,9 @@ public class Category {
     private String description;
     private String color;
 
+    public Category(String produto, String tipo, String cores) {
+    }
+
     public String getName()
     {
         return name;
@@ -30,4 +33,4 @@ public class Category {
         this.color = color;
     }
 }
-}
+
