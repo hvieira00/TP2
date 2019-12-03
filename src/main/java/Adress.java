@@ -3,6 +3,10 @@ public class Adress {
     private String DoorNo;
     private String PostalCode;
 
+    public Adress(String Rua, String s, String s1) {
+
+    }
+
     public String GetStreetName()
     {
         return StreetName;

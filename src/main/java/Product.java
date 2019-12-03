@@ -6,6 +6,10 @@ public class Product {
     private double price;
     private char unytytype;
 
+    public Product(String alimento, String tipo, String imagem, Category category2, int i, String kg) {
+
+    }
+
     public String getName()
     {
         return name;
